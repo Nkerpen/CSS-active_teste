@@ -1,0 +1,74 @@
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    position: absolute;
+}
+
+.img{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.mouse{
+    text-align: center;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #0dde09, #00ffee, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: rgb(255, 255, 255);
+    font-family: Tahoma;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+
+}
+
+.amogus{
+    top: 25%;
+    width: 300px;
+    height: 300px;
+    background-image: url('../imagens/amogus.png');
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+}
+.amogus:hover{
+    background-image: url('../imagens/amogus_walk.gif');
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.darksouls{
+    width: 320px;
+    height: 180px;
+    background-position: center;
+    background-image: url('../imagens/DARK-SOULS-REMASTERED.jpg');
+    background-size: 100%;
+    cursor: pointer;
+
+}
+
+.darksouls:hover{
+    background-image: url('../imagens/udied.gif');
+    background-size: 100%;
+
+}
